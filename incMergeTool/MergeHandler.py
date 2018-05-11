@@ -42,11 +42,11 @@ class MergeHandler(object):
                 reportModelList.append(reportModel) 
                 continue;
 
-            targetFullPath = targetPrjDir + '/' + key
-            reportModel.setOldCreateTime(getFileCreateTime(targetFullPath,False))       
+            targetFullPath = targetPrjDir + '/' + key         
             if os.access(targetFullPath, os.F_OK) == False:
                 print '[INFO]:' + targetFullPath + '不存在!'
             else:
+                reportModel.setOldCreateTime(getFileCreateTime(targetFullPath,False)) 
                 print '[INFO] 执行rm命令:'+'rm -rf '+targetFullPath
                 print commands.getoutput('rm -rf '+targetFullPath)
 
