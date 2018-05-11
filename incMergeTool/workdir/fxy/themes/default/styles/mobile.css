@@ -1,0 +1,202 @@
+@CHARSET "UTF-8";
+
+body{
+	padding-bottom: 70px;
+	background-color: #e6e6e6;
+}
+
+.welcome {
+	height: 80px;
+	overflow: hidden;
+}
+
+.welcome .titlePic {
+	z-index: 1;
+	overflow: hidden;
+}
+
+.welcome .titlePic img {
+	width: 100%;
+	height: 100%;
+}
+
+.welcome .titleText {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	padding: 8px;
+	text-shadow: none;
+	color: #fff;
+}
+
+.welcome .titleText a {
+	color: #fff;
+}
+
+.welcome .titleText .avatar {
+	width: 60px;
+	height: 60px;
+	border: 0px;
+}
+
+.welcome .titleText div {
+	float: left;
+	padding-right: 10px;
+	line-height: 14px;
+}
+/**/
+.nav-bottom {
+	border: none;
+	padding-top: 10px;
+	/* background-color: transparent; */
+}
+
+.nav-bottom a {
+	/* background-image:
+		url(../images/jquery-mobile/icons-png-custom/bottom-nav-bg.png); */
+	border-radius: 0px;
+	padding: 0px;
+	border: none;
+	width: 20%;
+	line-height: 14px;
+	color: #999999;
+}
+
+.nav-bottom a:ACTIVE, .nav-bottom a:HOVER{
+	color: #fff;
+}
+
+.nav-bottom a {
+	background-position: 0px;
+	/* background-color: transparent; */
+}
+
+#banner_box ul{
+	padding: 0px;
+}
+
+#banner_box img {
+	width: 100%;
+	display: block;
+}
+/**/
+.tmpBody {
+	background-color:#043770;
+	background-image: url(../images/mobile/body-tmp-bg.jpg);
+	background-repeat:no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.indexProductList{
+}
+
+.indexProductList .productPic{
+	width: 100%;
+}
+
+.product_basic {
+	background-color: #fff;
+	padding: 10px;
+}
+
+.product_basic .product_txt {
+	line-height: 1.5;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.product_basic .product_txt .product_price {
+	color: #fe5d6f;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.product_basic .buy_product {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.quantity_text {
+	float: left;
+}
+
+.product_desc_title {
+	background: #fff;
+	padding: 10px;
+	margin-top: 0px;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+
+.product_desc_content {
+	background: #fff;
+	padding: 10px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.product_desc_content img {
+	width: 100%;
+	height: auto;
+}
+/*产品明细列表页*/
+.poOrderDetails td {
+	vertical-align: top;
+}
+
+.poOrderDetails .productPic {
+	width: 100px;
+	height: auto;
+	border: 0px;
+}
+
+.poOrderDetails .product_price {
+	color: #fe5d6f;
+	font-weight: bold;
+}
+
+.poOrderDetails .foot {
+	padding: 10px;
+	text-align: right;
+}
+
+.poOrderDetails p{
+	margin: 0px;
+}
+
+#memberNoLabel{
+	color: red;
+	font-weight: bold;
+}
+
+.badgeCustom {
+	background-color: transparent;
+	color: #ccc;
+}
+/*下订单选择地址页*/
+#spnTotalAmount{
+	color: #fe5d6f;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+div.panel{
+	border-radius:0px;
+}
+
+.redFont{
+	font-weight: bold;
+	color: red;
+}
+
+nav.text-right{
+	text-align: center;
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	border: 0px;
+}

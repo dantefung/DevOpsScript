@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+.payment label.paymentLogo {
+	width: 206px;
+	height: 70px;
+	line-height: 65px;
+}
+
+.payment label .paymentCode{
+	margin-top: 30px;
+}
+
+.payment label.alipay {
+	background-image: url(../images/payment/alipay.jpg);
+	background-repeat: no-repeat;
+	background-position: -40px center;
+}
+
+.payment label.sdo {
+	background-image: url(../images/payment/sdo1.jpg);
+	background-repeat: no-repeat;
+	background-position: -22px center;
+}
+
+.payment label.BuySafe {
+	background-image: url(../images/payment/page6_buysafe.jpg);
+	background-repeat: no-repeat;
+	background-position: -22px center;
+}
+
+.payment label.iPay88 {
+	background-image: url(../images/payment/iPay88.jpg);
+	background-repeat: no-repeat;
+	background-position: -40px center;
+}
+
+.payment label.allinpay {
+	background-image: url(../images/payment/allinpay.jpg);
+	background-repeat: no-repeat;
+	background-position: -40px center;
+}
+
+.payment label.cgp {
+	background-image: url(../images/payment/cgp.png);
+	background-repeat: no-repeat;
+	background-position: -40px center;
+}
+
+.payment label.ips {
+	background-image: url(../images/payment/huanxun.jpg);
+	background-repeat: no-repeat;
+	background-position: -24px center;
+}
+
+.payment label.ght {
+	background-image: url(../images/payment/ght.jpg);
+	background-repeat: no-repeat;
+	background-position: -36px center;
+}
+
+.payment label.ump {
+	background-image: url(../images/payment/ump.jpg);
+	background-repeat: no-repeat;
+	background-position: -24px center;
+}
+
+.payment label.ump-scancode {
+	background-image: url(../images/payment/scancode-pay.jpg);
+	background-repeat: no-repeat;
+	background-position: -24px center;
+}
+
+.bank-list label {
+	display: block;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.bank-list label:hover{
+	background-color: #eee;
+}
+
+.bank-list label input {
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	border: 0px none;
+	opacity: 0;
+}
+
+.bank-list label .active{
+	position: absolute;
+	right: 10px;
+	color: green;
+	display: none;
+}
+
+.scancode-type-list label {
+	display: block;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.scancode-type-list label:hover{
+	background-color: #eee;
+}
+
+.scancode-type-list label input {
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	border: 0px none;
+	opacity: 0;
+}
+
+.scancode-type-list label .active{
+	position: absolute;
+	right: 10px;
+	color: green;
+	display: none;
+}

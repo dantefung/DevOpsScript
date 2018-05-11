@@ -1,0 +1,275 @@
+@import url(extremecomponents.css);
+
+@import url(form.css);
+
+html {
+	overflow-y: auto !important;
+	*overflow-y: scroll;
+}
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	/* background-image: url("../images/corp-login/body-bg.png"); */
+}
+
+img {
+	vertical-align: middle;
+}
+
+a img {
+	border: 0;
+}
+
+td,th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+	font-size: 9pt;
+}
+
+span {
+	font-size: 9pt;
+}
+
+a:link {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+h1 {
+	color: #ccc;
+	font-size: 28px;
+	font-weight: 900;
+	line-height: 28px;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+}
+
+p {
+	font: 12px/20px;
+	margin: 0px 0px 16px 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: disc outside none;
+	margin: 0 0 9px 16px;
+}
+
+div.separator {
+	border-bottom: 1px solid green;
+	margin: 10px 0px;
+	width: 300px;
+}
+
+.redBold{
+	color: red;
+	font-weight: bold;
+}
+
+.important{
+	color: red;
+}
+
+.green{
+	color:green;
+}
+/*页标题栏*/
+div.headerBar {
+	background: url("../images/bg-content-header.gif") repeat-x scroll 0 0
+		#F1F1F1;
+	border-bottom: 1px solid #D3D3D3;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+	padding: 0px 0px 0px 8px;
+	line-height: 30px;
+}
+
+/*页搜索栏*/
+div.searchBar {
+	padding: 0px;
+	overflow: auto;
+	margin-left: 10px;
+	margin-right: 4px;
+	background: url("../images/search-bg.gif");
+	border-right: 1px solid #d0d0d0;
+}
+
+div.searchBar dl {
+	float: left;
+	padding: 0px;
+	left: 0px;
+	margin: 0px;
+	border-left: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+div.searchBar dl dd,div.searchBar dl dt {
+	padding: 4px;
+	margin: 0px;
+	height: 22px;
+	color: #888888;
+}
+div.searchBar dl dt {
+	font-weight: bold;
+	text-align: center;
+}
+
+/*消息栏*/
+div.notice, div.error {
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: 4px;
+	list-style: none;
+	padding: 4px;
+}
+
+div.notice {
+	border: 1px solid #fcefa1;
+	background-color:#fbf9ee;
+	color: #363636;
+}
+
+div.error {
+	border: 1px solid #cd0a0a;
+	background-color:#fef1ec;
+	color: #cd0a0a;
+}
+
+div.error ul {
+	margin: 0px;
+	background-image: url(../images/icons/error.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+}
+
+div.error ul li {
+	list-style: none;
+}
+
+div.notice ul {
+	margin: 0px;
+	background-image: url(../images/icons/light-on.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+}
+
+div.notice ul li {
+	list-style: none;
+}
+/*等待*/
+.blockUI{
+	background: url( '../images/loading.gif' );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*主页面栏*/
+.contentBody {
+	margin: 10px;
+}
+
+/*页功能栏*/
+.contentBody .functionBar {
+	background: url("../images/search-bg.gif");
+	height: 24px;
+	border: 1px solid #d0d0d0;
+	padding: 2px;
+}
+
+.contentBody .functionBar a {
+	border: 1px solid transparent;
+}
+
+.contentBody .functionBar a:hover {
+	border: 1px solid #fbcb09;
+}
+
+/*功能栏分栏*/
+.contentBody .functionBar span.divider {
+	background: url("../images/toolbox-divider.gif") repeat-y scroll 0 0
+		transparent;
+	padding-left: 0px;
+}
+
+span.form-tips{
+	font-style: italic;
+}
+
+/*表单或详细资料表格*/
+table.detail {
+	font-weight: normal;
+	border-collapse: collapse;
+	position: relative;
+	margin: 4px;
+}
+
+/* table.detail th {
+	color: #333333;
+	text-align: right;
+	height: 20px;
+	padding: 4px;
+	white-space: nowrap;
+	font-weight: normal;
+} */
+table.detail th {
+	color: #333;
+	text-align: right;
+	width:120px;
+	height: 20px;
+	padding: 4px;
+	white-space: nowrap;
+	font-weight: normal;
+}
+table.detail th.required {
+	font-weight: bold;
+}
+
+table.detail td {
+	padding: 4px;
+}
+
+table.detail td.title {
+	padding: 4px;
+	white-space: nowrap;
+	font-weight: bold;
+	border-bottom: 1px dotted #d0d0d0;
+}
+
+table.detail td div.buttonBar {
+	margin-top: 10px;
+	border-top: 1px dotted #d0d0d0;
+	height: 40px;
+	text-align: center;
+	padding: 8px;
+}
+
+table.detail pre{
+	padding: 0px;
+	margin: 0px;
+}

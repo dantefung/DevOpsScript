@@ -1,0 +1,242 @@
+@CHARSET "UTF-8";
+
+@import url(form.css);
+
+body {
+	/* background-image: url("../images/member/body-bg.gif");
+	background-repeat: repeat-x; */
+	background-color: #e6e6e6;
+}
+
+/*顶端*/
+#topDiv {
+	background-color: #210f0f;
+	background-image: url("../images/member/top_banner_bg.jpg");
+}
+
+#logoDiv {
+	color: #fff;
+	padding: 20px 0 0 20px;
+	min-height: 90px;
+	/* background-image: url("../images/member/logo.png");
+	background-repeat: no-repeat;
+	background-position: 0 center; */
+}
+
+#logoDiv h2{
+	margin: 0px;
+}
+
+#appname-title {
+	color: #fff;
+	min-height: 90px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+#appname-title small{
+	font-size: 12px;
+}
+
+#topBar {
+	text-align: right;
+	line-height: 34px;
+	color: #fff;
+	vertical-align: middle;
+	padding-top: 6px;
+}
+
+#navBar{
+	background-color: #000;
+}
+
+#menuBar {
+}
+
+#langBar {
+	text-align: right;
+	padding-top:2px;
+}
+
+.content-div {
+	min-height: 400px;
+}
+
+.navHeader>ol:last-child {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*底部*/
+#bottomDiv {
+	color: #7b7b7b;
+	text-align: center;
+}
+
+/*主页面左边导航*/
+.redFont {
+	color: #D70C19;
+	font-weight: bold;
+}
+
+.greenFont {
+	color: #9B8B00;
+	font-weight: bold;
+}
+/*主页面标题栏*/
+.contentTitleBar {
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 12px;
+	background-repeat: repeat-x;
+	background-image: url(../images/member/content_title_bg.jpg);
+	height: 50px;
+	color: #1B548D;
+}
+/*首页列表表格*/
+.badgeCustom {
+	background-color: transparent;
+	color: #ccc;
+}
+
+/*分页*/
+.pageStatusBar{
+	padding: 15px 0;
+}
+/*消息栏*/
+div.notice,div.error { /* border-radius: 4px 4px 4px 4px;
+	margin-bottom: 4px;
+	list-style: none;
+	padding: 4px; */
+	
+}
+
+div.notice { /* border: 1px solid #fcefa1;
+	background-color:#fbf9ee;
+	color: #363636; */
+	
+}
+
+div.error ul {
+	margin: 0px;
+	background-image: url(../images/icons/error.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+}
+
+div.error ul li {
+	list-style: none;
+}
+
+div.notice ul {
+	margin: 0px;
+	background-image: url(../images/icons/light-on.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+}
+
+div.notice ul li {
+	list-style: none;
+}
+/*表单或详细资料表格*/
+span.form-tips {
+	font-style: italic;
+}
+
+pre.newsContent {
+	background-color:transparent;
+	border:none;
+	font-size:14px;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+pre.agreement {
+	font-size:14px;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+pre.normalText {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+table.detail {
+	font-weight: normal;
+	border-collapse: collapse;
+	position: relative;
+}
+
+table.detail tbody > tr > th {
+	color: #333333;
+	text-align: right;
+	height: 20px;
+	padding: 5px;
+	white-space: nowrap;
+	font-weight: normal;
+	/* vertical-align: top; */
+}
+
+table.detail th.required {
+	font-weight: bold;
+}
+
+table.detail td {
+	padding: 4px;
+}
+
+table.detail td.title {
+	padding: 4px;
+	white-space: nowrap;
+	font-weight: bold;
+	border-bottom: 1px dotted #d0d0d0;
+	text-align: left;
+}
+
+table.detail td div.buttonBar {
+	margin-top: 10px;
+	border-top: 1px dotted #d0d0d0;
+	height: 40px;
+	text-align: center;
+	padding: 8px;
+}
+/*列表*/
+
+.table > thead > tr > th{
+	white-space: nowrap;
+}
+
+.poOrderDetails{
+	
+}
+
+.poOrderDetails .productPic{
+	width: 100px;
+}
+
+.product_price{
+	font-size: 14px;
+	color: #db6800;
+}
+
+label{
+	font-weight: normal;
+}
+
+.required{
+	font-weight: bold;
+}
